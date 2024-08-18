@@ -32,6 +32,7 @@ Frontend :-
 4. Whole page is responsive with design part with use of tailwind CSS and favicon is also been kept same as the logo.
 5. To start with frontend in localhost we will first open file in our local computer then after starting backend we will direct our directory to the frontend folder then we will use command line (npm install) to install all dependencies, after installing all dependencies we will move ahead with the command line (npm start) to start the application in localhost network.
 6. The frontend doesnot use any .env here but we can when required adn axios package is used to aquire backend.
+7. Make change in the App.js file where axios link to deployed onrender is given with the comment mentioned there about the change to run locally.
 
 Thank you,
 MD.Aman
