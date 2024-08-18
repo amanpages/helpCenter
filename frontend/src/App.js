@@ -11,7 +11,8 @@ function App() {
 
     useEffect(() => {
         // Fetch data from the server
-        axios.get('http://localhost:5000/cards')
+        // Make changes here with line http://localhost:5000 when running locally.
+        axios.get('https://helpcenter-5ngl.onrender.com/cards')
             .then(response => setCards(response.data))
             .catch(error => console.error('Error fetching data:', error));
     }, []);
